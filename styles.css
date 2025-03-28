@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #ff758c, #ff7eb3); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 500px; 
+    text-align: center;
+    overflow: visible;
+}
+
+h1 {
+    color: #ff4081; 
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block; 
+}
+
+p {
+    color: #444;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+label {
+    width: 100%;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 12px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+    border-color: #ff4081;
+    box-shadow: 0 0 8px rgba(255, 64, 129, 0.5);
+}
+
+.radio-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.radio-group label {
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+input[type="submit"], 
+input[type="reset"] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 50%;
+}
+
+input[type="submit"] {
+    background: #ff4081;
+    color: white;
+    font-weight: bold;
+}
+
+input[type="reset"] {
+    background: #ccc;
+    color: black;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background: #ff1e63;
+}
+
+input[type="reset"]:hover {
+    background: #999;
+}
